@@ -1,0 +1,628 @@
+@font-face {
+font-family: "Montserrat Bold Italic";
+src: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/fonts/Montserrat-BoldItalic.ttf") format("truetype");
+font-display: swap;
+}
+@font-face {
+font-family: "Montserrat Regular";
+src: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/fonts/Montserrat-Regular.ttf") format("truetype");
+font-display: swap;
+}
+
+#es-neo.es-neo {
+font-family: "Montserrat Regular", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+max-width: 1158px;
+margin: 0 auto;
+padding: 0;
+overflow: hidden;
+color: #000;
+background: #fff;
+}
+
+#es-neo.es-neo * {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+#es-neo.es-neo img,
+#es-neo.es-neo picture {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+#es-neo.es-neo p #es-neo.es-neo li {
+line-height: inherit;
+color: inherit;
+font-family: inherit;
+font-weight: inherit;
+}
+
+#es-neo.es-neo .es-neo__sup,
+#es-neo.es-neo .es-neo__sub {
+line-height: 0;
+font-size: 60%;
+}
+
+#es-neo.es-neo .es-neo__strong {
+font-weight: 700;
+}
+
+#es-neo.es-neo .es-kv__img {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+#es-neo.es-neo .es-kv__title {
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+font-size: 42px;
+line-height: inherit;
+margin: 0;
+padding: 0;
+color: inherit;
+text-align: center;
+margin-bottom: 16px;
+margin-inline: 5%;
+}
+
+#es-neo.es-neo .es-kv__subtitle {
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+font-size: 30px;
+line-height: inherit;
+margin: 0;
+padding: 0;
+color: #c82322;
+text-align: center;
+margin-bottom: 16px;
+}
+
+#es-neo.es-neo .es-kv__img--logo {
+margin-inline-start: 0;
+width: 70%;
+max-width: unset;
+margin-bottom: 24px;
+}
+
+#es-neo.es-neo .es-kv__img--desktop {
+display: none;
+}
+
+#es-neo.es-neo .es-kv__content {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-inline: 16px;
+}
+
+#es-neo.es-neo .es-kv__packshot {
+width: 70%;
+padding-top: 64px;
+}
+
+#es-neo.es-neo .es-kv__wrapper {
+width: 30%;
+align-self: flex-start;
+}
+
+#es-neo.es-neo .es-kv__img--cherry {
+width: 60%;
+margin-bottom: 8px;
+}
+
+#es-neo.es-neo .es-kv__label {
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+font-size: 14px;
+line-height: inherit;
+margin: 0;
+padding: 0;
+color: #c82322;
+text-align: center;
+text-transform: uppercase;
+}
+
+#es-neo.es-neo .es-benefits__img {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+#es-neo.es-neo .es-benefits {
+background-image: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/red-bg.png");
+background-repeat: no-repeat;
+height: 2246px;
+background-position: top center;
+margin-top: -20%;
+margin-bottom: 48px;
+}
+
+#es-neo.es-neo .es-benefits__title {
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+font-size: 36px;
+line-height: 1;
+margin: 0;
+padding: 0;
+color: #fff;
+text-align: left;
+margin-bottom: 64px;
+max-width: 250px;
+margin-left: 24px;
+padding-top: 128px;
+}
+
+#es-neo.es-neo .es-benefits__name {
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+font-size: 30px;
+line-height: 1;
+margin: 0;
+padding: 0;
+color: #fff;
+text-align: left;
+margin-bottom: 64px;
+max-width: 250px;
+margin-left: 24px;
+padding-top: 48px;
+}
+
+#es-neo.es-neo .es-benefits__subtitle {
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+font-size: 30px;
+line-height: inherit;
+margin: 0;
+padding: 0;
+color: #fff;
+text-align: left;
+margin-bottom: 64px;
+margin-left: 12px;
+margin-top: -50px;
+max-width: 340px;
+}
+
+#es-neo.es-neo .es-benefits__subtitle--2 {
+margin-bottom: 24px;
+margin-top: 80px;
+max-width: 230px;
+margin-left: 24px;
+}
+
+#es-neo.es-neo .es-benefits__content {
+display: flex;
+flex-direction: column;
+gap: 32px;
+margin-inline: 24px;
+}
+
+#es-neo.es-neo .es-benefits__item {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: center;
+}
+
+#es-neo.es-neo .es-benefits__txt {
+font-family: "Montserrat Regular", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+color: #fff;
+text-align: left;
+margin-left: 24px;
+padding-bottom: 32px;
+}
+
+#es-neo.es-neo .es-benefits__icon {
+width: 80px;
+padding-bottom: 32px;
+}
+
+#es-neo.es-neo .es-benefits__picture {
+margin-top: -128px;
+position: relative;
+max-width: 420px;
+margin-left: -50px;
+}
+
+#es-neo.es-neo .es-benefits__picture::after {
+content: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/arrow-5.png");
+position: absolute;
+bottom: 55%;
+right: 5%;
+}
+
+#es-neo.es-neo .es-benefits__list {
+margin: 0;
+padding: 0;
+list-style: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/thick.png") outside;
+padding-left: 40px;
+max-width: 315px;
+}
+
+#es-neo.es-neo .es-benefits__symbol {
+width: 150px;
+margin-inline-start: auto;
+margin-inline-end: 10%;
+position: relative;
+}
+
+#es-neo.es-neo .es-benefits__symbol::after {
+content: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/arrow-6.png");
+position: absolute;
+bottom: 25%;
+left: -65%;
+}
+
+#es-neo.es-neo .es-info__img {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+#es-neo.es-neo .es-info__title {
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+font-size: 30px;
+line-height: inherit;
+margin: 0;
+padding: 0;
+color: inherit;
+text-align: center;
+margin-bottom: 16px;
+}
+#es-neo.es-neo .es-info__title--span {
+color: #c82322;
+}
+
+#es-neo.es-neo .es-info__txt {
+font-family: "Montserrat Regular", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+color: #000;
+text-align: center;
+margin-bottom: 32px;
+}
+
+#es-neo.es-neo .es-info__picture {
+width: 90%;
+margin-inline-start: auto;
+}
+
+#es-neo.es-neo .es-cross__img {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+#es-neo.es-neo .es-cross {
+background-image: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/red-bg-mobile.png");
+background-repeat: no-repeat;
+background-position: top center;
+}
+
+#es-neo.es-neo .es-cross__title {
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+font-size: 36px;
+line-height: inherit;
+margin: 0;
+padding: 0;
+color: inherit;
+text-align: left;
+margin-bottom: 16px;
+max-width: 290px;
+margin-left: 24px;
+}
+#es-neo.es-neo .es-cross__title--span {
+color: #c82322;
+}
+
+#es-neo.es-neo .es-cross__item {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+align-content: center;
+gap: 16px;
+padding-bottom: 32px;
+position: relative;
+}
+
+#es-neo.es-neo .es-cross__content--desktop {
+display: none;
+}
+
+#es-neo.es-neo .es-cross__name {
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: inherit;
+margin: 0;
+padding: 0;
+color: #fff;
+text-align: center;
+}
+
+#es-neo.es-neo .es-cross__desc {
+font-family: "Montserrat Regular", sans-serif;
+font-weight: 400;
+}
+
+#es-neo.es-neo .es-cross__link {
+margin: 0;
+padding: 0;
+line-height: inherit;
+color: inherit;
+font-family: "Montserrat Bold Italic", sans-serif;
+font-weight: 600;
+display: block;
+color: #c82322;
+background-color: #fff;
+text-decoration: none;
+padding: 16px 24px;
+font-size: 18px;
+text-align: center;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+border-radius: 55px;
+margin-bottom: 16px;
+max-width: 260px;
+border: 2px solid white;
+}
+
+#es-neo.es-neo .es-cross__link:hover {
+background: #c82322;
+color: #fff;
+}
+
+#es-neo.es-neo .es-disclaimer {
+background: rgb(130,33,33);
+background: linear-gradient(90deg, rgba(130,33,33,1) 0%, rgba(145,33,33,1) 100%);
+}
+
+#es-neo.es-neo .es-disclaimer__text {
+font-family: "Montserrat Regular", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: inherit;
+margin: 0;
+padding: 0;
+color: #fff;
+text-align: left;
+padding-bottom: 32px;
+margin-inline: 24px;
+}
+
+#es-neo.es-neo .es-disclaimer__text--1 {
+font-size: 18px;
+}
+
+#es-neo.es-neo .es-disclaimer__text--2 {
+font-size: 30px;
+}
+
+@media screen and (min-width: 1001px) {
+#es-neo.es-neo .es-kv__img--mobile {
+display: none;
+}
+#es-neo.es-neo .es-kv__img--desktop {
+display: block;
+}
+#es-neo.es-neo .es-kv__img--logo {
+width: 30%;
+}
+#es-neo.es-neo .es-kv__title {
+font-size: 56px;
+margin-top: -140px;
+margin-bottom: 0;
+margin-left: 25%;
+}
+#es-neo.es-neo .es-kv__subtitle {
+font-size: 56px;
+margin-left: 25%;
+margin-bottom: 48px;
+}
+#es-neo.es-neo .es-kv__content {
+display: block;
+position: relative;
+}
+#es-neo.es-neo .es-kv__packshot {
+display: block;
+margin-inline: auto;
+}
+#es-neo.es-neo .es-kv__wrapper {
+position: absolute;
+top: 4%;
+right: 6%;
+width: unset;
+}
+#es-neo.es-neo .es-kv__label {
+font-size: 30px;
+width: unset;
+}
+#es-neo.es-neo .es-benefits__title {
+font-size: 42px;
+padding-top: 300px;
+max-width: unset;
+margin-bottom: 160px;
+position: relative;
+margin-left: 48px;
+}
+#es-neo.es-neo .es-benefits__title::after {
+content: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/arrow-1.png");
+position: absolute;
+bottom: -33%;
+left: 38%;
+}
+#es-neo.es-neo .es-benefits__content {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-items: center;
+align-content: center;
+}
+#es-neo.es-neo .es-benefits__txt {
+font-size: 28px;
+}
+#es-neo.es-neo .es-benefits__icon {
+width: unset;
+}
+#es-neo.es-neo .es-benefits__item {
+gap: 36px;
+}
+#es-neo.es-neo .es-benefits__picture::after {
+content: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/arrow-2.png");
+position: absolute;
+bottom: 62%;
+right: 62%;
+}
+#es-neo.es-neo .es-benefits__picture {
+max-width: unset;
+margin-top: -360px;
+margin-left: -10px;
+}
+#es-neo.es-neo .es-benefits__img--woman {
+margin-inline-start: 0;
+}
+#es-neo.es-neo .es-benefits__subtitle--1 {
+margin-top: -790px;
+max-width: unset;
+margin-left: 47%;
+font-size: 34px;
+}
+#es-neo.es-neo .es-benefits__list {
+max-width: 410px;
+margin-left: 64%;
+}
+#es-neo.es-neo .es-benefits__symbol {
+width: 214px;
+margin-left: 24%;
+}
+#es-neo.es-neo .es-benefits__name {
+font-size: 42px;
+padding-top: 32px;
+max-width: unset;
+margin-bottom: 48px;
+position: relative;
+margin-left: 48px;
+}
+#es-neo.es-neo .es-benefits__symbol::after {
+content: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/arrow-3.png");
+bottom: 10%;
+}
+#es-neo.es-neo .es-benefits__subtitle--2 {
+margin-top: -175px;
+max-width: unset;
+margin-left: 50%;
+}
+#es-neo.es-neo .es-benefits__txt--2 {
+margin-left: 50%;
+}
+#es-neo.es-neo .es-info__title {
+font-size: 42px;
+padding-top: 48px;
+}
+#es-neo.es-neo .es-info__txt {
+font-size: 28px;
+}
+#es-neo.es-neo .es-info {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-top: -295px;
+}
+#es-neo.es-neo .es-info__picture {
+width: 60%;
+}
+#es-neo.es-neo .es-info__content {
+width: 40%;
+position: relative;
+}
+#es-neo.es-neo .es-info__content::after {
+content: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/arrow-4.png");
+position: absolute;
+bottom: -30%;
+left: 55%;
+}
+#es-neo.es-neo .es-cross__content--mobile {
+display: none;
+}  
+#es-neo.es-neo .es-cross__content--desktop {
+display: block;
+}
+#es-neo.es-neo .es-cross__title {
+font-size: 42px;
+max-width: unset;
+margin-bottom: 36px;
+}
+#es-neo.es-neo .es-cross__items {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-items: center;
+align-content: center;
+margin-top: 96px;
+}
+#es-neo.es-neo .es-cross__item--1::after {
+content: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/arrow-7.png");
+position: absolute;
+top: -125px;
+left: 165px;
+}
+#es-neo.es-neo .es-cross__item--2::after {
+content: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/arrow-8.png");
+position: absolute;
+top: -90px;
+left: -15px;
+}
+#es-neo.es-neo .es-cross__item--3::after {
+content: url("https://estorelabs.github.io/230426-KF-04-Klosterfrau-Neoangin-Wisnia/img/arrow-9.png");
+position: absolute;
+top: -145px;
+left: -15px;
+}
+#es-neo.es-neo .es-cross__name {
+font-size: 28px;
+}
+#es-neo.es-neo .es-cross__link {
+font-size: 20px;
+}
+#es-neo.es-neo .es-disclaimer--mobile {
+display: none;
+}
+#es-neo.es-neo .es-disclaimer {
+background: transparent;
+}
+#es-neo.es-neo .es-disclaimer__text {
+font-size: 16px;
+margin-inline: 32px;
+}
+#es-neo.es-neo .es-disclaimer__text--1 {
+font-size: 24px;
+}
+#es-neo.es-neo .es-disclaimer__text--2 {
+font-size: 30px;
+}
+}
